@@ -1,0 +1,7 @@
+{
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},	
+	"postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+	"forwardPorts": [8501]
+}
