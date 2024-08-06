@@ -14,6 +14,7 @@
 
 ## 必要なもの
 
+- VS Code
 - Docker
 - Jina API Key
   - Jina Reader APIを使用するため、APIキーが必要です
@@ -21,7 +22,16 @@
 ## 使い方
 
 ```
-git clone https:
+git clone https://github.com/kun432/webpagepack-jina && cd webpagepack-jina 
+code .
+```
+
+VS Code devcontainerで開きなおす
+
+VS Codeのターミナルから
+
+```
+streamlit run app.py
 ```
 
 ## 免責
